@@ -1,11 +1,16 @@
-.intro {
+body {
+  background-image: url(../img/istockphoto-1541470416-1024x1024.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+      }
+ .hidden {
+  display: none;
+}
+ .intro {
   text-align: center;
 }
 
 p.intro {
   font-size: larger;
-}
-
-.hidden {
-  display: none;
 }
