@@ -1,5 +1,5 @@
 body {
-  background-image: url(../img/istockphoto-1541470416-1024x1024.jpg);
+  background-image: url(../img/istockphoto-865457032-2048x2048.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -14,7 +14,7 @@ h3 {
 .box {
   width: fit-content; 
   padding: 10px;
-  border: solid rgb(0, 0, 0);
+  border: solid rgb(108, 133, 48);
   border-width: 4px;
   box-sizing: border-box;
   }
@@ -29,6 +29,11 @@ h3 {
 
 p.intro {
   font-size: larger;
+}
+
+#banner {
+  background-image: url(../img/istockphoto-1541470416-1024x1024.jpg);
+  padding: 2px;
 }
 
 #output {
