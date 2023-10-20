@@ -30,8 +30,15 @@ If you experience any other issues or notice anything that could be changed for 
 
 [GithubPages](https://nikkitatorres.github.io/Portfolio-Landing-Page/)
 
+## Image Credits
+
+[Banner Image](https://www.istockphoto.com/photo/abstract-futuristic-binary-background-for-hackathon-and-other-digital-events-gm1541470416-525793658) by ebrublue10 on istockphoto.com
+
+[Background Image](https://www.istockphoto.com/vector/abstract-futuristic-cyberspace-with-binary-code-matrix-background-with-digits-well-gm865457032-143700189?phrase=hacker+background&searchscope=image%2Cfilm) by ValeryBrozhinsky on istockphoto.com.
+
 ## License
 
 [MIT](https://en.wikipedia.org/wiki/MIT_License)
+[Royalty-free](https://en.wikipedia.org/wiki/Royalty-free)
 
 Copyright (c) 2023 Nikkita Torres
