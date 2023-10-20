@@ -1,29 +1,33 @@
-let Question1, Question2, Question3, Question4, Question5;
-
 function handleSelect(event) {
   event.preventDefault();
-  Question1 = parseInt(document.getElementById("Q1").value);
-  Question2 = parseInt(document.getElementById("Q2").value);
-  Question3 = parseInt(document.getElementById("Q3").value);
-  Question4 = parseInt(document.getElementById("Q4").value);
-  Question5 = parseInt(document.getElementById("Q5").value);
+  const Question1 = parseInt(document.getElementById("Q1").value);
+  const Question2 = parseInt(document.getElementById("Q2").value);
+  const Question3 = parseInt(document.getElementById("Q3").value);
+  const Question4 = parseInt(document.getElementById("Q4").value);
+  const Question5 = parseInt(document.getElementById("Q5").value);
 
+  const total = Question1 + Question2 + Question3 + Question4 + Question5;
+  return total;
 }
 
 window.addEventListener("load", function() {
-  document.getElementById("select-form").addEventListener("submit", handleSelect);
-  
-  let result;
-  if (Question1 + Question2 + Question3 + Question4 + Question5 < 5) {
-    result = "Please fill out all questions for a result.";
-  } else if (Question1 + Question2 + Question3 + Question4 + Question5 >= 5 && Question1 + Question2 + Question3 + Question4 + Question5 < 8) {
-    result = "Python";
-  } else if (Question1 + Question2 + Question3 + Question4 + Question5 > 8 && Question1 + Question2 + Question3 + Question4 + Question5 <= 12) {
-    result = "Ruby";
-  } else if (Question1 + Question2 + Question3 + Question4 + Question5 > 12) {
-    result = "C#";
-  }
+  document.getElementById("select-form").addEventListener("submit", function(event) {
+    const result = handleSelect(event);
+    let message;
 
-  document.getElementById("output").innerText = result;
-  document.getElementById("select-form").reset();
+    if (result < 5 ) {
+      message = "Please fill out all questions for a result.";
+    } else if (result >= 5 && result < 8) {
+      message = "Python";
+    } else if (result > 8 && result <= 12) {
+      message = "Ruby";
+    } else if (result > 12) {
+      message = "C#";
+    } else {
+      message = "Please fill out all questions for a result."
+    }
+
+    document.getElementById("output").innerText = message;
+    document.getElementById("select-form").reset();
+  });
 });
