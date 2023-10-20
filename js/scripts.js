@@ -27,6 +27,7 @@ window.addEventListener("load", function() {
       message = "Please fill out all questions for a result."
     }
 
+    document.getElementById("RESULTS").removeAttribute("class");
     document.getElementById("output").innerText = message;
     document.getElementById("select-form").reset();
   });
