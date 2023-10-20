@@ -8,7 +8,7 @@
 <body>
   <h1 class="intro"><u>Programming Language Suggestor</u></h1>
   <p class="intro">Hello and welcome to my Programming Language Suggestor! If you feel like learning a programming language but you're not sure where to start, you've come to the right place!</p>
-  <p class="intro">Simply answer the questions <strong>below</strong> and we'll produce a match for you! Please make sure you fill out <strong>all</strong> of the questions before submitting your answers!</p>
+  <p class="intro">Simply answer the questions <strong>below</strong> and we'll produce a match for you! Please make sure you fill out <strong>all</strong> of the questions <em>before</em> submitting your answers!</p>
 
   <h2><u>Question 1:</u></h2>
   <p>I enjoy taking long naps.</p>
@@ -19,6 +19,7 @@
       <option value="2">Sort of Agree</option>
       <option value="3">Strongly Agree</option>
     </select> <br />
+
     <h2><u>Question 2:</u></h2>
     <p>I enjoy taking long walks on the beach.</p>
     <select id="Q2" type = "text">
@@ -27,6 +28,7 @@
       <option value="2">Sort of Agree</option>
       <option value="3">Strongly Agree</option>
     </select> <br />
+    
     <h2><u>Question 3:</u></h2>
     <p>Are you interested in making video games?</p>
     <select id="Q3" type = "text">
@@ -35,6 +37,7 @@
       <option value="2">Sort of Agree</option>
       <option value="3">Strongly Agree</option>
     </select> <br />
+
     <h2><u>Question 4:</u></h2>
     <p>Do you enjoy challenges?</p>
     <select id="Q4" type = "text">
@@ -43,6 +46,7 @@
       <option value="2">Sort of Agree</option>
       <option value="3">Strongly Agree</option>
     </select> <br />
+
     <h2><u>Question 5:</u></h2>
     <p>Are you interested in creating websites?</p>
     <select id="Q5" type = "text">
@@ -53,6 +57,11 @@
     </select> <br />
     <button type="submit">Submit Selections</button>
   </form>
-  <h3 id="RESULTS" class="hidden">RESULTS!</h3>
-  <p id = "output"></p>
+  
+  <div id="RESULTS" class="hidden">
+    <div class="box">
+      <h3><u>RESULTS!</u></h3>
+      <p id = "output"></p>
+    </div>
+  </div>
 </body>

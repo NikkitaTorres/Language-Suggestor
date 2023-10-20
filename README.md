@@ -9,7 +9,7 @@ This is a project for creating a programming language suggestor. The purpose of 
 ## Technologies Used:
 
 * HTML
-*  CSS
+* CSS
 * JavaScript
 
 ## Setup Instructions:
