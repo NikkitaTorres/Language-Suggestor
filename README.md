@@ -38,7 +38,6 @@ If you experience any other issues or notice anything that could be changed for 
 
 ## License
 
-[MIT](https://en.wikipedia.org/wiki/MIT_License)
-[Royalty-free](https://en.wikipedia.org/wiki/Royalty-free)
+[MIT](LICENSE.txt)
 
 Copyright (c) 2023 Nikkita Torres
