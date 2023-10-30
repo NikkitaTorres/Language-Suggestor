@@ -28,8 +28,6 @@ Known bugs includes:
 
 If you experience any other issues or notice anything that could be changed for the better, please reach out to me [here](nikkitatorres@yahoo.com). For bug reports, please begin with a brief description of the issue and when the issues occurs. For example, "I cannot view the images on the webpage when launching in Mozilla Firefox" or "Resizing the webpage breaks the web links".
 
-[GithubPages](https://nikkitatorres.github.io/Language-Suggestor/)
-
 ## Image Credits
 
 [Banner Image](https://www.istockphoto.com/photo/abstract-futuristic-binary-background-for-hackathon-and-other-digital-events-gm1541470416-525793658) by ebrublue10 on istockphoto.com
